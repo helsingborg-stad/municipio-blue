@@ -1,0 +1,13 @@
+/* Style configuration */ 
+@import 'setting/var_colors.scss';
+
+/* Load assets from municipio parent theme */ 
+@import '../../../../municipio/assets/source/3.0/sass/styleguide';
+@import '../../../../municipio/assets/source/3.0/sass/main';
+
+.is-child-theme {
+	/* Custom css should be included here */ 
+	.some-random-classname {
+		background-color: red; 
+	}
+}

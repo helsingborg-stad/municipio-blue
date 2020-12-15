@@ -1,0 +1,26 @@
+// ***************************************************************
+// *** Colors
+// ***************************************************************
+
+//Primary colors
+$color-primary: #0069b4;
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dimmed: $color-primary-dark; // To be deprecated
+$color-primary-alpha: rgba($color-primary, 0.08);
+$color-primary-alpha-dimmed: rgba($color-primary, 0.24);
+
+// Secondary Colors
+$color-secondary: #005c86;
+$color-secondary-dark: darken($color-secondary,10%);
+$color-secondary-light:lighten($color-secondary, 10%);
+$color-secondary-dimmed: $color-secondary-dark;
+$color-secondary-alpha: rgba($color-secondary, 0.08);
+$color-secondary-alpha-dimmed: rgba($color-secondary, 0.24);
+
+// Tertiary Colors
+$color-tertiary: #0095db;
+$color-tertiary-dark: darken($color-tertiary, 10%);
+$color-tertiary-light: lighten($color-tertiary, 10%);
+$color-tertiary-alpha: rgba($color-tertiary, 0.08);
+$color-tertiary-alpha-dimmed: rgba($color-tertiary, 0.24);

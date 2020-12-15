@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+.npmrc
+assets/dist/*
+vendor/
+.php_cs.cache
+.env
+
+npm-debug.log
