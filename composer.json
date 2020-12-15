@@ -3,6 +3,7 @@
     "description": "Blue version of the municipio theme",
     "type": "wordpress-theme",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Sebastian Thulin",
