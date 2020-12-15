@@ -1,7 +1,7 @@
 {
-  "name": "municipio-childtheme",
+  "name": "municipio-blue",
   "version": "3.0.0",
-  "description": "Childtheme for Municipio theme",
+  "description": "Blue childtheme for of theme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "cross-env NODE_ENV=development webpack --watch",

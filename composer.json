@@ -1,0 +1,13 @@
+{
+    "name": "helsingborg-stad/municipio-blue",
+    "description": "Blue version of the municipio theme",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
+        }
+    ],
+    "require": {}
+}
