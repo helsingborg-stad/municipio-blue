@@ -1,7 +1,7 @@
-(#theme_namespace#) = (#theme_namespace#) || {};
-(#theme_namespace#).ExampleNamespace = (#theme_namespace#).Liquid || {};
+MunicipioBlue = MunicipioBlue || {};
+MunicipioBlue.ExampleNamespace = MunicipioBlue.Liquid || {};
 
-(#theme_namespace#).ExampleNamespace.ExampleClass = (function ($) {
+MunicipioBlue.ExampleNamespace.ExampleClass = (function ($) {
 
 	var classVariable = false;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace (#theme_namespace#)\Vendor;
+namespace MunicipioBlue\Vendor;
 
 /**
  * A PSR-4 compatible class loader.

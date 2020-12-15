@@ -1,6 +1,6 @@
 <?php
 
-namespace (#theme_namespace#)\Theme;
+namespace MunicipioBlue\Theme;
 
 class Enqueue
 {
@@ -23,7 +23,7 @@ class Enqueue
         wp_dequeue_style('municipio-css'); 
 
         wp_enqueue_style(
-            '(#theme_namespace#)',
+            'MunicipioBlue',
             get_stylesheet_directory_uri() .
                         '/assets/dist/' .
                         \Municipio\Helper\CacheBust::name('css/app.css', true),
@@ -39,7 +39,7 @@ class Enqueue
     public function script()
     {
         wp_register_script(
-            '(#theme_namespace#)-js',
+            'MunicipioBlue-js',
             get_stylesheet_directory_uri() .
                         '/assets/dist/' .
                         \Municipio\Helper\CacheBust::name('js/app.js'),
@@ -48,6 +48,6 @@ class Enqueue
             true
         );
 
-        wp_enqueue_script('(#theme_namespace#)-js');
+        wp_enqueue_script('MunicipioBlue-js');
     }
 }
